@@ -1,0 +1,18 @@
+I assume you have nasm, ld and are on an AMD64 PC. If you don't have any of those, idk bro, invest in a computer or smth.
+First take main.asm, then open a shell.
+You can then do, on the folder you have main.asm in:
+$ nasm -felf64 main.asm -o bf.o
+$ ld bf.o -o bf
+Congrats, you have compiled a program!
+Now, let's open our bad interpreter.
+$ ./bf
++==============================================================================+
+|/			     Welcome to x85 BF interpreter!			   \|
+|#		     Please type some BF code, then type R then ENTER		   #|
+|#		Written by DevHONK for the Bad Code Competition 2022, Week 1	   #|
+|#			  64KB of tape free and 64KB of program free		   #|
+|\				  256 nested blocks free			   /|
++==============================================================================+
+
+You can now type your BF program. Once you're done, type 'R' then enter. Your program will then execute.
+NOTE: Any input not taken by the interpreter will be passed to the shell! Also it acts quirky af.
