@@ -1,0 +1,1 @@
+right you gotta use release mode cause stack and something or it'll segfault or whatever
