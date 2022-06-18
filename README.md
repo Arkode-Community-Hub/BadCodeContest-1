@@ -4,7 +4,8 @@ Welcome to the BCC n°1 ! After waiting so long, you can finally submit your "gr
 
 ## Rules
 
-- The app should print [fizzbuzz](https://en.wikipedia.org/wiki/Fizz_buzz) entries from 0 to 100 when executed
+- The app should interpret the [brainfuck](https://fr.wikipedia.org/wiki/Brainfuck) file `./sample.bf` when executed
+  - OR do something else related to the theme, which will be described in detail in `<user>/task.md`
 - There should be clear instructions on how to run the program
 - The source code should be accessible and documented in the submitted folder
 - The application must be compilable with a common utility program (ex: `node`, `cargo`)
